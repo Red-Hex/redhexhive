@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #fff;
+}
+.wrap {
+    max-width:1124px;
+    margin: 0 auto;
+}
+.imgs{
+    display:flex;
+}
+.imgs img {
+    max-width:500px;
+    height:auto;
+}
+.half{
+    width:50%;
+}
+
+.responsive {
+    max-width: 100%;
+    height:auto;
+}
+
+#hero-image {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.project-container-hero {
+    background-color: #595959;
+    width:100%;
+    color: white;
+    font-family: 'Montserrat';
+    padding-bottom: 15px;
+}
+
+.back-button {
+    position: relative;
+    background-color: firebrick;
+    font-family: 'Montserrat';
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin-top:2%;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.hero-content p {
+    width: 85%;
+}
+
+.main-title {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.subtitle {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+#first-section h4 {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+#first-section p {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.sub-heading {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+/*---PHONE---*/
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .wrap {
+        max-width: 400px;
+    }
+    .imgs {
+        display:block;
+    }
+    .half {
+        width:100%;
+    }
+
+    #first-section {
+        display:block;
+    }
+
+    #first-section p {
+        width: 85%;
+        margin-left: 13%;
+    }
+}
+
+/* ---DESKTOP--- */
+
+@media screen and (min-width: 769px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    
+
+    .r1 {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .c1 {
+        width: 53%;
+        margin-left: 13%;
+        background-color: rgb(141, 28, 28);
+    }
+
+    .c2 {
+        width: 20%;
+        background-color: rgb(141, 28, 28);
+        padding-right: 15px;
+    }
+
+}
+
+.box {
+    position: relative;  
+}
+
